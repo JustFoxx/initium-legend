@@ -1,0 +1,5 @@
+type = customizablemenus
+
+mca.client.gui.DestinyScreen {
+}
+

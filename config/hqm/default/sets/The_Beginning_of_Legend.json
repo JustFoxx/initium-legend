@@ -1,0 +1,136 @@
+{
+  "name": "The Beginning of Legend",
+  "quests": [
+    {
+      "uuid": "344c18b8-fa32-4f1d-9cb8-988448a247b8",
+      "name": "Getting started",
+      "description": "Pick up some rocks and sticks from ground by right clicking them.",
+      "x": 25,
+      "y": 21,
+      "bigicon": true,
+      "icon": {
+        "id": "minecraft:grass_block",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "rocks:cobblestone_splitter",
+                "Count": 1
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "minecraft:stick",
+                "Count": 1
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:oak_sapling",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:apple",
+          "Count": 8
+        },
+        {
+          "id": "minecraft:cobblestone",
+          "Count": 4
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b1b16883-81a4-4eb9-b84c-7af785f86ce2",
+      "name": "Tools \u0026 Stuff",
+      "description": "Get basic stone tools. Pickaxe, Shovel, Axe etc.",
+      "x": 70,
+      "y": 61,
+      "icon": {
+        "id": "minecraft:stone_pickaxe",
+        "Count": 1,
+        "tag": "{Damage:0}"
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:stone_pickaxe",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:stone_shovel",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:stone_axe",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:stone_hoe",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:stone_sword",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:melon_seeds",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:pumpkin_seeds",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:string",
+          "Count": 4
+        },
+        {
+          "id": "minecraft:cooked_porkchop",
+          "Count": 2
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": "Intium legend. Here your new journey starts"
+}
